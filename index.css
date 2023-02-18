@@ -1,0 +1,336 @@
+    body {
+        background-image: url(background.jpg);
+        font-family: 'open Sans', sans-serif;
+        font-size: 14px;
+        color: black;
+        line-height: 1.15;
+    }
+    
+    .chaychu {
+        background-color: rgb(219, 155, 155);
+        color: black;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid black;
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        height: 30px;
+        line-height: 40px;
+        font-size: 24px;
+        border-radius: 10px;
+    }
+    
+    .warpper {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    
+    .headline {
+        text-align: center;
+    }
+    
+    h3 {
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 19px;
+    }
+    
+    #menu {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 5px;
+        background-color: rgb(233, 227, 227);
+        text-align: center;
+    }
+    
+    .menu :hover {
+        color: rgb(225, 25, 222);
+    }
+    
+    header {
+        position: relative;
+        text-align: center;
+    }
+    
+    h3 {
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 19px;
+    }
+    
+    nav>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    nav>ul>li>a {
+        display: block;
+        text-decoration: none;
+        padding: 0 15px;
+        line-height: 50px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    
+    nav>ul>li>a:hover {
+        color: rgb(225, 25, 222);
+    }
+    
+    nav>ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 10px;
+        background-color: rgb(230, 183, 183);
+        text-align: center;
+    }
+    
+    nav ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        width: 250px;
+    }
+    
+    nav ul ul a {
+        display: block;
+        line-height: 30px;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 10px;
+    }
+    
+    nav>ul>li:hover>ul {
+        display: block;
+    }
+    
+    nav ul ul a:hover {
+        color: #FF0;
+    }
+    
+    ul.phong {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    ul.phong li {
+        flex-basis: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    
+    ul.phong li img {
+        width: 100%;
+        height: 400px;
+    }
+    
+    ul.phong li .phong-top {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    ul.phong li:hover .phong-top .phong-thumb img {
+        filter: opacity(80%);
+    }
+    
+    ul.phong li .phong-top .phong-thumb {
+        display: block;
+    }
+    
+    ul.phong li .phong-top .phong-thumb img {
+        display: block;
+    }
+    
+    ul.phong li .phong-top a.buy-now {
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        background-color: cadetblue;
+        color: black;
+        padding: 10px 0px;
+        position: absolute;
+        bottom: -36px;
+        width: 100%;
+        transition: 0.25s ease-in-out;
+        opacity: 0.85;
+    }
+    
+    ul.phong li:hover a.buy-now {
+        bottom: 0px;
+    }
+    
+    ul.phong li .phong-info {
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .phong-thumb img:hover {
+        transform: scale(1.1);
+        transition: all 0.4s;
+    }
+    
+    ul.phong li .phong-info a.phong-price {
+        color: black;
+        padding: 2px 0px;
+        font-weight: 600;
+    }
+    
+    .menu1 {
+        padding-left: 30px;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    
+    .menu1 ul li {
+        padding: 10px;
+    }
+    
+    .menu1 ul li a {
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        margin-left: 30px;
+    }
+    
+    .menu1 ul li a:hover {
+        color: #FF0;
+    }
+    
+    .menu2 {
+        background-color: gray;
+        border-radius: 10px;
+    }
+    
+    .menu2 p {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .lh {
+        font-weight: bold;
+    }
+    
+    .lh2 {
+        color: #020202;
+        font-size: 25px;
+    }
+    
+    .lh3 {
+        color: #808080;
+    }
+    
+    .lh1 {
+        color: #080808;
+        font-size: 15px;
+    }
+    
+    article ul li {
+        margin-left: 40px;
+        margin-bottom: 15px;
+        color: black;
+    }
+    
+    h2 {
+        color: black;
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+    }
+    
+    h3 {
+        color: black;
+        font-weight: bold;
+        display: block;
+        margin-left: 30px;
+    }
+    
+    .hd1 {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: #090909;
+        text-align: center;
+    }
+    
+    .hd {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .hd2 {
+        font-weight: bold;
+        color: rgb(51, 47, 47);
+    }
+    
+    .hd3 {
+        font-weight: bold;
+        color: #00F;
+        text-align: center;
+    }
+    
+    .hd4 {
+        margin-left: 50px;
+        color: rgb(2, 2, 2);
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .hd5 {
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    
+    .hd6 {
+        margin-left: 50px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    .ketthuc {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .chuchay1 {
+        background-color: rgb(219, 155, 155);
+        color: black;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid black;
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+        height: 30px;
+        line-height: 40px;
+        font-size: 24px;
+        border-radius: 10px;
+    }
+    
+    .ketthuc a {
+        text-decoration: none;
+        color: #5561ba;
+        text-transform: uppercase;
+    }

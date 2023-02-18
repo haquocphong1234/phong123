@@ -1,0 +1,142 @@
+<style>
+    .lh {
+        font-weight: bold;
+    }
+    
+    .lh2 {
+        color: #551aa8;
+    }
+    
+    .lh3 {
+        color: #808080;
+    }
+    
+    .lh1 {
+        color: #ff0000;
+    }
+    
+    article ul li {
+        margin-left: 40px;
+        margin-bottom: 15px;
+        color: #F00;
+    }
+    
+    h2 {
+        color: #808080;
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .h {
+        width: 260px;
+        height: 40px;
+        border-radius: 10px;
+        border: 2px solid #f42b5d;
+    }
+    
+    .hu {
+        width: 100px;
+    }
+    
+    button {
+        background-color: #f42b5d;
+        color: white;
+        height: 40px;
+        width: 263px;
+        border-radius: 10px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: #F0F;
+        font-weight: bold;
+    }
+    
+    .hi {
+        float: left;
+        width: 60%;
+        padding-left: 10px;
+    }
+    
+    .hii {
+        float: right;
+        width: 35%;
+    }
+</style>
+</head>
+
+<body>
+    <div id="menu">
+        <header>
+            <img src="Picture/Logo.png" width="972px" height="250px" />
+        </header>
+        <br />
+        <nav>
+            <ul class="bang">
+                <li><a href="index.html"> TRANG CHỦ</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="sanpham.html">TIN TỨC LÀM ĐẸP</a>
+                    <ul>
+                        <li><a href="lamdep.html">BÍ QUYẾT LÀM ĐẸP</a></li>
+                        <li><a href="trangda.html">BÍ QUYẾT LÀM TRẮNG DA </a></li>
+                        <li><a href="trangdiem.html">BÍ QUYẾT TRANG ĐIỂM</a></li>
+                    </ul>
+                </li>
+                <li><a href="huongdan.html">HƯỚNG DẪN MUA HÀNG</a></li>
+                <li><a href="lienhe.html">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <br />
+            <img src="Picture/Lienhe.png" width="700px" />
+            <br />
+            <br />
+            <div class="hi">
+                <h1>ĐĂNG KÝ</h1>
+                <br /><br />
+                <form onsubmit="return validateForm()">
+                    <div><a>Họ Và Tên*</a><br />
+                        <input class="h" type="text" id="username" placeholder="Nhập họ tên" />
+                        <div class="val_error" id="name_error"></div>
+                    </div><br />
+                    <div><a>Email*</a><br />
+                        <input class="h" type="text" id="email" placeholder="Nhập email" />
+                        <div class="val_error" id="email_error"></div>
+                    </div><br />
+                    <div><a>Mật Khẩu</a><br />
+                        <input class="h" type="text" id="password" placeholder="Nhập password" />
+                        <div class="val_error" id="password_error"></div>
+                    </div><br />
+                    <div><a>Nhập Lại Mật Khẩu</a><br />
+                        <input class="h" type="text" id="re_password" placeholder="Nhập re_password" />
+                        <div class="val_error" id="re_password_error"></div>
+                    </div><br />
+                    <div class="ha"><input type="radio" id="gioi" value="Nam" />&nbsp;Nam
+                        <input type="radio" id="gioi" value="Nữ" />&nbsp;Nữ
+                        <div class="val_error" id="gioi_error"></div>
+                    </div>
+                    <div class="hu"><button type="submit">Đăng ký</button></div>
+                    <br /><br />
+                </form>
+            </div>
+            <div class="hii">
+                <h1>ĐĂNG NHẬP</h1>
+                <br /><br />
+                <form onsubmit="return validateForm()">
+
+                    <div><a>Email*</a><br />
+                        <input class="h" type="text" id="email" placeholder="Nhập email" />
+                        <div class="val_error" id="email_error"></div>
+                    </div><br />
+                    <div><a>Mật Khẩu</a><br />
+                        <input class="h" type="text" id="password" placeholder="Nhập password" />
+                        <div class="val_error" id="password_error"></div>
+                    </div><br />
+                    <a>Quên Mật Khẩu?</a><a href="test.html">Nhấn vào đây</a>
+                    <div class="hu"><button type="submit">Đăng Nhập</button></div>
+                    <div class="hu"><button type="submit">Đăng Nhập Bằng Facebook</button></div>
+
+                </form>
+            </div><br clear="both" />
+            <script>
